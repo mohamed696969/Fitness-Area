@@ -23,7 +23,10 @@
 
 </head>
   <div id="barre" style="width: 96.9574px;"></div>
-  <body>
+  <body id="body" class="dark-mode">
+    
+
+
     <div class="cookie-consent-modal">
        
         <div class="bloc_cookies">
@@ -40,7 +43,7 @@
        
     </div>
     <header class="nav_header">
-           
+        <label  id="dark-change"></label>
         <nav> 
            
 
@@ -51,7 +54,7 @@
                     <a href="equipement.html">Equipement</a>
                     <a href="A-Propos.html"><NOBR>A propos</NOBR> </a>
                     <a href="">Contact</a>
-                    <a href="sinscrire.html"><span>Inscription</span></a>
+                    <a href="sinscrire.html"><span><NOBR>je m'inscris</NOBR> </span></a>
                 </li>
             </ul>
             
@@ -68,6 +71,8 @@
     <main>
        
         <div class="container1" id="blur">
+
+           
         <!-- ------Carouselle------------- -->
         
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -99,7 +104,10 @@
           <section class="Offre">
             <article>
                 <h1>Maintenant <br> <span id="contour-lettre">2 semaines offertes !</span></h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aliquam reprehenderit dolores nisi minima ad qui voluptatum quam, natus facilis vel assumenda, quis quod! Adipisci maxime soluta delectus perferendis eaque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aliquam reprehenderit dolores nisi minima ad qui voluptatum quam, natus facilis vel assumenda, quis quod! Adipisci maxime soluta delectus perferendis eaque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aliquam reprehenderit dolores nisi minima ad qui voluptatum quam, natus facilis vel assumenda, quis quod! Adipisci maxime soluta delectus perferendis eaque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aliquam reprehenderit dolores nisi minima ad qui voluptatum quam, natus facilis vel assumenda, quis quod! Adipisci maxime soluta delectus perferendis eaque.</p>
+                <p> 
+                Vous souhaitez tester avant d'acheter ? <br> C'est possible avec Fitness-Area ! <br> Profitez des 2 semaines offertes pour essayer les nombreuses machines que vous propose la salle ainsi que ses nombreuses fonctionnalitées. Les coach restent à votre disposition en cas de besoins particuliers sur le plan physique, mentale et alimentaire. L'équipe Fitness-Area vous souhaite un bon entrainement !</p>
+
+            <button class="btn_inscrire2"><a href="sinscrire.html">S'inscrire</a> </button>
             </article>
 
            
@@ -128,10 +136,10 @@
 
           <!-- --------A vos marque------------------ -->
           <section class="A-vos-marque reveal">
-            <h4>
+            <h2>
                 à vos marque... prêt ? partez !
-            </h4>
-            <h5>MOTIV</h5>
+            </h2>
+            <h3>MOTIV</h3>
 
             <div class="prestation">
                 <div class="muscle">
@@ -189,7 +197,6 @@
             <img src="./images/motif1.png" alt="" id="motif2">
         </div>
 
-
         <!-- --------Articles-------------- -->
        
         <div class="Articles_compile">
@@ -200,7 +207,7 @@
                 <div class="texte_bloc">
                     <h1>24 Avril 2022</h1>
                     <h2>5 astuces pour maigrir</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repudiandae nulla repellat.</p>
+                    <p>Boire régulièrement est le meilleur moyen d'éviter la déshydratation. Buvez de l'eau avant, pendant et après l'exercice...</p>
                     <div class="btn_bloc"><a href="#">En savoir +</a></div>
                     
                 </div>
@@ -214,7 +221,7 @@
                 <div class="texte_bloc">
                     <h1>24 Avril 2022</h1>
                     <h2>Les bonnes habitudes du quotidien</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repudiandae nulla repellat.</p>
+                    <p>Il est parfois difficile d'être heureux au quotidien. Nous avons tous des engagements qui incluent le travail, la technologie etc... </p>
                     <div class="btn_bloc"><a href="#">En savoir +</a></div>
                     
                 </div>
@@ -227,7 +234,7 @@
                 <div class="texte_bloc">
                     <h1>24 Avril 2022</h1>
                     <h2>Nos conseils nutrition !</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repudiandae nulla repellat.</p>
+                    <p>Pour fonctionner correctement, le corps humain a besoin d’énergie. Ces besoins énergétiques sont couverts par les aliments... </p>
                     <div class="btn_bloc"><a href="#">En savoir +</a></div>
                     
                 </div>
@@ -240,7 +247,7 @@
                 <div class="texte_bloc">
                     <h1>24 Avril 2022</h1>
                     <h2>5 astuces pour se muscler</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repudiandae nulla repellat.</p>
+                    <p>Bien sûr, il faut faire des efforts pour obtenir des résultats, mais avec quelques astuces et conseils, vous pourrez gagner du muscle plus rapidement...</p>
                     <div class="btn_bloc"><a href="#">En savoir +</a></div>
                     
                 </div>
@@ -330,8 +337,8 @@
 
        
           
-</div>
-   <span id="like">Ils sont satisfaits</span>
+
+   <span id="like"><h3>Ils sont satisfaits</h3></span>
     
  <div class="avis">
      
@@ -546,7 +553,7 @@
 
 
         <div class="location-info">
-            <span id="retrouver">Nous retrouver au</span><br>
+            <span id="retrouver"><h5>Nous retrouver au</h5> </span><br>
             <span id="adresse">9 allée du lorem</span><br>
             <hn id="horaire">Fitness-Area vous ouvre ses portes du<br><span id="surlignement">lundi au vendredi de 6h30 à 22h00</span></hn><br>
 
@@ -564,14 +571,14 @@
     <div class="recrute-newsletter">
         
         <div class="candidature">
-            <hn id="on-recrute">On recrute !</hn>
+            <hn id="on-recrute"><h6> On recrute !</h6></hn>
             <p>Ici ça recrute ! Vous êtes en recherche de stages, d'alternance ou d'emploie ? N'hésitez pas à nous laisser votre CV avec votre lettre de motivation afin vous faire un retour le plus rapidement possible. </p>
             <input type="file" name="Votre CV" id="cv"><br>
             <div class="btn">Envoyer</div>
         </div>
 
         <div class="newsletter">
-            <hn id="newsletter">Newsletter</hn>
+            <hn id="newsletter"><h6>Newsletter</h6> </hn>
             <p>Vous souhaitez ne rien manquer à nos offres promotionnelles ou à l'actualité de la salle ? N'attendez plus, la newsletter est faites pour vous !</p>
             <input type="email" name="mail" id="email" placeholder="Entrez votre email"><br>
             <div class="btn">Envoyer</div>
@@ -614,10 +621,10 @@
             </p>
 
         </div>
-    </footer>
+    </div>
+</footer>
 </div>
   
-
 
 
 
