@@ -10,22 +10,15 @@ window.onload = () => {
   });
 };
 
-function ouvrirPage() {
-  var a = document.getElementById("search").value;
-  if ((a === "réservation", "réserver", "reserver", "reservation")) {
-    //     window.open("reserver.html");
-  }
-}
-
 // ---Vidéo play/pause-----
-// let video = document.getElementById("myvideo");
-// video.addEventListener("mouseover", () => {
-//   video.play();
-// });
+let video = document.getElementById("myvideo");
+video.addEventListener("mouseover", () => {
+  video.play();
+});
 
-// video.addEventListener("mouseout", () => {
-//   video.pause();
-// });
+video.addEventListener("mouseout", () => {
+  video.pause();
+});
 
 // // Burger-menu
 let toggle = document.querySelector(".toggle");
@@ -140,3 +133,21 @@ setTimeout(function () {
     cookieModal.classList.add("active");
   }
 }, 2000);
+
+//-----DARK-MODE-----------------
+
+var Maintenant = document.querySelector(".maintenant");
+var content = document.getElementsByTagName("body")[0];
+var darkMode = document.getElementById("dark-change");
+var Article = document.querySelector(".Article_bloc");
+var Satisfait = document.getElementById("like");
+var Temoignages = document.querySelector(".temoignage");
+
+darkMode.addEventListener("click", function () {
+  darkMode.classList.toggle("active");
+  content.classList.toggle("night");
+  Maintenant.style.color = "white";
+  Article.style.background = "#ffffff3b";
+  Satisfait.style.color = "white";
+  Temoignages.style.background = "#444444";
+});
