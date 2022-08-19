@@ -433,6 +433,7 @@ main {
   background: #ff693a;
     color: white;
     padding: 5px 33px;
+    border: none;
 }
 
 .btn_inscrire2:hover {
